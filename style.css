@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* background-color: #1A1B21; */
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;  
+}
+
+#root {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 315px;
+}
+
+.photo-card > img {
+    display: block;
+    width: 315px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+h1 {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-bottom: 1em;
+}
+#buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 140px;
+    font-size: 1.5em;
+    border: 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(.9);
+}
+
+#button2 {
+    background-color: #5093E2;
+}
+
+.about {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about > h2, .interests > h2 {
+    padding: 10px;
+    margin-top: 0;
+}
+
+.about > p, .interests > p {
+     padding: 1em;
+     font-size: 100;
+}
+
+.interests > {
+    
+}
+
+.info-card,.about,.interests {
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    margin: 0;
+    
+}
+
+.footer {
+    background-color: #161619;
+    color: #DCDCDC;
+    padding-top: 0;
+}
+
+ul {
+    font-size: 3em;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
